@@ -30,7 +30,6 @@ in Layout.xml
         </RelativeLayout>
         
 In .Java
-
 ViewPager _mViewPager = (ViewPager) findViewById(R.id.vpDots);
 		_mViewPager.setAdapter(mAdapter);
 
