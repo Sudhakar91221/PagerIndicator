@@ -31,7 +31,9 @@ in Layout.xml
         
 In .Java
 ViewPager _mViewPager = (ViewPager) findViewById(R.id.vpDots);
+
 		_mViewPager.setAdapter(mAdapter);
 
 PageIndicator mIndicator = (CirclePageIndicator)findViewById(R.id.indicator);
+
 		mIndicator.setViewPager(_mViewPager);
